@@ -19,8 +19,9 @@
     [super viewDidLoad];
     UIButton * btn = [UIButton buttonWithType:UIButtonTypeSystem];
     [btn setBackgroundColor:[UIColor cyanColor]];
-    [btn setTitle:@"nduadhauid" forState:UIControlStateNormal];
-    [btn setFrame:CGRectMake(100, 100, 250, 200)];
+    [btn setTitle:@"title!!!!" forState:UIControlStateNormal];
+    [btn setFrame:CGRectMake(0, 0, 250, 200)];
+    [btn setCenter:self.view.center];
     [btn setImage:[UIImage imageNamed:@"pic"] forState:UIControlStateNormal];
     [self.view addSubview:btn];
     [btn changeWithType:EDWButttonTypeImageRight andInterval:10];
