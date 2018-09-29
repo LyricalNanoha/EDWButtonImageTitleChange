@@ -6,6 +6,15 @@ pod 'EDWButtonImageTitleChange'
 
 
 ````objc
+typedef NS_ENUM (NSInteger,EDWButttonType) {
+    EDWButttonTypeImageUp,
+    EDWButttonTypeImageLeft,
+    EDWButttonTypeImageDown,
+    EDWButttonTypeImageRight,
+} ;
+````
+
+````objc
 UIButton * btn = [UIButton buttonWithType:UIButtonTypeSystem];
     [btn setBackgroundColor:[UIColor cyanColor]];
     [btn setTitle:@"title!!!!" forState:UIControlStateNormal];
@@ -20,20 +29,20 @@ UIButton * btn = [UIButton buttonWithType:UIButtonTypeSystem];
 ````objc
 EDWButttonTypeImageUp
 ````
-![avatar](https://github.com/jinjinEdward/EDWButtonImageTitleChange/blob/master/EDWButtonImageTitleChangeDemo/EDWButtonImageTitleChangeDemo/up.png?raw=true)
+<img src="https://github.com/jinjinEdward/EDWButtonImageTitleChange/blob/master/EDWButtonImageTitleChangeDemo/EDWButtonImageTitleChangeDemo/up.png?raw=true" width=300/>
 
 ````objc
 EDWButttonTypeImageLeft
 ````
-![avatar](https://github.com/jinjinEdward/EDWButtonImageTitleChange/blob/master/EDWButtonImageTitleChangeDemo/EDWButtonImageTitleChangeDemo/left.png?raw=true)
+<img src="https://github.com/jinjinEdward/EDWButtonImageTitleChange/blob/master/EDWButtonImageTitleChangeDemo/EDWButtonImageTitleChangeDemo/left.png?raw=true" width=300/>
 
 ````objc
 EDWButttonTypeImageDown
 ````
-![avatar](https://github.com/jinjinEdward/EDWButtonImageTitleChange/blob/master/EDWButtonImageTitleChangeDemo/EDWButtonImageTitleChangeDemo/down.png?raw=true)
+<img src="https://github.com/jinjinEdward/EDWButtonImageTitleChange/blob/master/EDWButtonImageTitleChangeDemo/EDWButtonImageTitleChangeDemo/down.png?raw=true" width=300/>
 
 
 ````objc
 EDWButttonTypeImageRight
 ````
-![avatar](https://github.com/jinjinEdward/EDWButtonImageTitleChange/blob/master/EDWButtonImageTitleChangeDemo/EDWButtonImageTitleChangeDemo/right.png?raw=true)
+<img src="https://github.com/jinjinEdward/EDWButtonImageTitleChange/blob/master/EDWButtonImageTitleChangeDemo/EDWButtonImageTitleChangeDemo/right.png?raw=true" width=300/>
