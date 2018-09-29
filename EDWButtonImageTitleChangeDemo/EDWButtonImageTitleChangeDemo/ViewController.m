@@ -17,6 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.view setBackgroundColor:[UIColor orangeColor]];
+    
     UIButton * btn = [UIButton buttonWithType:UIButtonTypeSystem];
     [btn setBackgroundColor:[UIColor cyanColor]];
     [btn setTitle:@"title!!!!" forState:UIControlStateNormal];
@@ -24,7 +26,7 @@
     [btn setCenter:self.view.center];
     [btn setImage:[UIImage imageNamed:@"pic"] forState:UIControlStateNormal];
     [self.view addSubview:btn];
-    [btn changeWithType:EDWButttonTypeImageRight andInterval:10];
+    [btn changeWithType:EDWButttonTypeImageDown andInterval:10];
 }
 
 - (void)didReceiveMemoryWarning {
